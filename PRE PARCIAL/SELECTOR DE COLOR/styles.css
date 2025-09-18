@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    transition: background-color 0.5s ease;
+    /* transición suave */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3498db;
+    /* azul */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    /* azul más oscuro */
+    transform: scale(1.05);
+    /* efecto de agrandar */
+}
+
+button:active {
+    background-color: #1c5d85;
+    /* aún más oscuro al hacer click */
+}

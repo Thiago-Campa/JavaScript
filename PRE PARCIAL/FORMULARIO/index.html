@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Formulario de Registro</h1>
+
+    <form id="registro">
+        <label>
+            Nombre:
+            <input type="text" id="nombre">
+            <span class="error" id="errorNombre"></span>
+        </label>
+        <br><br>
+
+        <label>
+            Email:
+            <input type="email" id="email">
+            <span class="error" id="errorEmail"></span>
+        </label>
+        <br><br>
+
+        <label>
+            Contraseña:
+            <input type="password" id="password">
+            <span class="error" id="errorPassword"></span>
+        </label>
+        <br><br>
+
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
+
+</html>

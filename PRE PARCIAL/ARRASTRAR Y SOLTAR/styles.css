@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tabla Dinámica de Estudiantes</h1>
+
+    <h1>Tabla Dinámica de Estudiantes</h1>
+
+    <!-- Formulario para agregar -->
+    <form id="formAgregar">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="number" id="nota" placeholder="Nota" min="1" max="10" required>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Nota</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Filas se agregarán dinámicamente -->
+        </tbody>
+    </table>
+</body>
+
+</html>
