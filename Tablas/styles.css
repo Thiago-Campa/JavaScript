@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+table{
+    border: 1px solid black;
+}
+
+th {
+    background-color: red;
+}
+
+th,td {
+    border: 1px solid black;
+}
+
